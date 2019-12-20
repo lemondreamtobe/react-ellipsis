@@ -1,4 +1,4 @@
-# react-ellipsis
+# react-overflows-ellipsis
 ```
  some environment, css text-overflow: ellipsis dot not work, or not satisfied
  maybe you can try this lirbray
@@ -7,7 +7,7 @@
 # usage
 ```
 
-import ReactEllipsis from 'react-ellipsis';
+import ReactEllipsis from 'react-overflows-ellipsis';
 
 <ReactEllipsis className="demo">you word</ReactEllipsis>
 

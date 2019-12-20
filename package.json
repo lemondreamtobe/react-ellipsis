@@ -1,6 +1,6 @@
 {
-  "name": "react-ellipsis",
-  "version": "1.0.0",
+  "name": "react-overflows-ellipsis",
+  "version": "1.0.5",
   "description": "use js to replace Css text-overflow",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/lemondreamtobe/react-ellipsis#readme",
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "react": "16.9.0",
+    "babel-cli": "^6.2.0",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "babel-loader": "^8.0.6"
   }
 }

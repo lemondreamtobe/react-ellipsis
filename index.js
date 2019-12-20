@@ -2,6 +2,7 @@
 // import './style.less'
 import OverFlow from './overflow'; 
 import $ from 'jquery/dist/jquery.slim.min.js';
+import * as React from 'react';
 
 class OverflowWord extends React.Component {
   componentDidMount() {
