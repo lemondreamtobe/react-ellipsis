@@ -1,0 +1,22 @@
+{
+  "name": "react-ellipsis",
+  "version": "1.0.0",
+  "description": "use js to replace Css text-overflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemondreamtobe/react-ellipsis.git"
+  },
+  "author": "lemonzhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemondreamtobe/react-ellipsis/issues"
+  },
+  "homepage": "https://github.com/lemondreamtobe/react-ellipsis#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
