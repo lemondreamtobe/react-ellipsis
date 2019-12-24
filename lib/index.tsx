@@ -12,8 +12,12 @@ interface TextOverflowOptions {
   className?: string,
   wholeWord?: boolean
 }
+interface OverflowWordProps{
+  str?: string
+  className?: string
+}
 
-class OverflowWord extends React.Component<any> {
+class OverflowWord extends React.Component<OverflowWordProps> {
   private overflowWord;
 
   rtrim = (str: string) => {
@@ -134,7 +138,9 @@ class OverflowWord extends React.Component<any> {
   }
 
   componentDidMount() {
-   this.textOverflow();
+   this.textOverflow({
+     str: this.props.str || '...'
+   });
   }
 
   render() {

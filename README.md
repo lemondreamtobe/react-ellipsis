@@ -19,3 +19,11 @@ import ReactEllipsis from 'react-overflows-ellipsis';
 	width: 180px;
 }
 ```
+
+## Props
+
+#### `className`: string
+- default: `undefined`
+
+#### `str`: The string to append to the content before it is clipped. Defaults to the ellipsis character "`…`". May also contain HTML, but the string itself is not subject to being clipped
+- default: `...`
