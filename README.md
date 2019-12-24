@@ -2,6 +2,8 @@
 ```
  some environment, css text-overflow: ellipsis dot not work, or not satisfied
  maybe you can try this lirbray
+ do text-overflow: ellipsis in js
+ this lirbray is base in jquery
 
 ```
 # usage
